@@ -231,7 +231,7 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'Dancebox',
     providers: {
-      Tanssi: 'wss://fraa-dancebox-rpc.a.dancebox.tanssi.network',
+      Tanssi: 'wss://fraa-dancebox-rpc.a.dancebox.tanssi.network'
     },
     text: 'Dancebox',
     ui: {
