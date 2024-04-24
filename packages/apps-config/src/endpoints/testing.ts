@@ -583,9 +583,9 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'logion',
     providers: {
-      Logion: 'wss://test-rpc01.logion.network'
+      Logion: 'wss://test-para-rpc01.logion.network'
     },
-    text: 'logion Standalone Testnet',
+    text: 'Logion Testnet',
     ui: {
       color: 'rgb(21, 38, 101)',
       logo: chainsLogionPNG
@@ -734,7 +734,7 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'Phyken Network',
     providers: {
-      'Phyken Testnet': 'wss://rpc.testnet.metaquity.xyz'
+      // 'Phyken Testnet': 'wss://rpc.testnet.metaquity.xyz' // https://github.com/polkadot-js/apps/issues/10453
     },
     text: 'Phyken Network Testnet',
     ui: {
